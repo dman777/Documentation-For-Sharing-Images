@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Quickstart and Fundamentals &mdash; Cloud Share Image .5 Beta documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '.5 Beta',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Cloud Share Image .5 Beta documentation" href="index.html" />
+    <link rel="prev" title="Welcome to Cloud Share Image’s documentation!" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to Cloud Share Image’s documentation!"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Cloud Share Image .5 Beta documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="quickstart-and-fundamentals">
+<h1>Quickstart and Fundamentals<a class="headerlink" href="#quickstart-and-fundamentals" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="sharing-is-not-duplicating">
+<h2>Sharing is not duplicating<a class="headerlink" href="#sharing-is-not-duplicating" title="Permalink to this headline">¶</a></h2>
+<p>Image sharing is exactly what it sounds....sharing a image between two Rackspace accounts. It is not copying a image and having two of of the same images(although this is possible and discussed later). When you share a image with another person, you give them a reference to your image. Think of it as you are givng the other person a roadmap to where their account can find your image to use.</p>
+</div>
+<div class="section" id="think-ahead">
+<h2>Think ahead<a class="headerlink" href="#think-ahead" title="Permalink to this headline">¶</a></h2>
+<p>Images can not be shared across datacenters. For instance, if you have a image in the Dallas datacenter you can only share it with accounts in the Dallas datacenter. This makes good sense - you would not want to stream a 40GB image across datacenters. This would take a very long time to stream such a image. In addition, the probability of corruption is high due to typical internet congestion. The key point is this: Plan ahead on which datacenter you will choose to do your image sharing. As rule of thumb, it is best to pick the datacenter closest to you. However, the difference in speed across the datacenters from where you are are only milliseconds and insignificant to the human being.</p>
+</div>
+<div class="section" id="producer-what-i-am-the-owner-of-the-image">
+<h2>Producer? What? I am the owner of the image<a class="headerlink" href="#producer-what-i-am-the-owner-of-the-image" title="Permalink to this headline">¶</a></h2>
+<p>Original documentation refers to the owner of the image as the &#8220;producer&#8221;. If you are the owner of the image you want to share, think of yourself as &#8220;producing the image&#8221;.</p>
+</div>
+<div class="section" id="consumer-what-i-want-to-use-jill-s-image-and-build-a-server-off-of-it">
+<h2>Consumer? What? I want to use Jill&#8217;s image and build a server off of it<a class="headerlink" href="#consumer-what-i-want-to-use-jill-s-image-and-build-a-server-off-of-it" title="Permalink to this headline">¶</a></h2>
+<p>The consumer will be the person who is using a image that is being shared with them.</p>
+</div>
+<div class="section" id="consumers-are-referred-to-by-their-account-id">
+<h2>Consumers are referred to by their account id<a class="headerlink" href="#consumers-are-referred-to-by-their-account-id" title="Permalink to this headline">¶</a></h2>
+<p>Let&#8217;s say that I, Darin, want to share my image <tt class="docutils literal"><span class="pre">af1234c9-6d07-5f1f-b642-01d9df26ed51</span></tt> with Jill. Jill will let me know her account number which is <tt class="docutils literal"><span class="pre">1234567</span></tt>. I will add consumer <tt class="docutils literal"><span class="pre">1234567</span></tt> to my custom build Ubuntu image <tt class="docutils literal"><span class="pre">af1234c9-6d07-5f1f-b642-01d9df26ed51</span></tt> so it will be available to Jill&#8217;s account.</p>
+</div>
+<div class="section" id="sorry-window-s-users-need-not-apply">
+<h2>Sorry, Window&#8217;s Users Need Not Apply<a class="headerlink" href="#sorry-window-s-users-need-not-apply" title="Permalink to this headline">¶</a></h2>
+<p>It&#8217;s not us, it&#8217;s them...or rather him. William Gates likes money. He likes it enough to where he said if you use his OS you can not share it.</p>
+</div>
+<div class="section" id="i-m-ready-to-start-sharing-images">
+<h2>I&#8217;m ready to start sharing images!<a class="headerlink" href="#i-m-ready-to-start-sharing-images" title="Permalink to this headline">¶</a></h2>
+<p>With this much information, you can now go to <a class="reference external" href="https://cloudshareimage.com">www.cloudshareimage.com</a> and share images. On the site you can go two ways:</p>
+<ol class="arabic simple">
+<li>You can make use of <tt class="docutils literal"><span class="pre">Share</span> <span class="pre">Image</span> <span class="pre">All</span> <span class="pre">In</span> <span class="pre">One</span> <span class="pre">Step</span></tt> if you have both the producer&#8217;s and consumer&#8217;s account api keys</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Step 2 is ideal if the Producer and Consumer do not share their api keys</p>
+</div>
+<ol class="arabic simple" start="2">
+<li>Do each step individually-  Use <tt class="docutils literal"><span class="pre">Producer</span> <span class="pre">Operation-&gt;</span> <span class="pre">Add</span> <span class="pre">Member</span></tt> to add a member your image. For the consumer, he/she/you will want to use <tt class="docutils literal"><span class="pre">Consumer</span> <span class="pre">Operations-&gt;</span> <span class="pre">Set</span> <span class="pre">status</span> <span class="pre">of</span> <span class="pre">image</span></tt> to <tt class="docutils literal"><span class="pre">Accept</span></tt>. This is will allow the shared image to be available in the consumer&#8217;s account.</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Quickstart and Fundamentals</a><ul>
+<li><a class="reference internal" href="#sharing-is-not-duplicating">Sharing is not duplicating</a></li>
+<li><a class="reference internal" href="#think-ahead">Think ahead</a></li>
+<li><a class="reference internal" href="#producer-what-i-am-the-owner-of-the-image">Producer? What? I am the owner of the image</a></li>
+<li><a class="reference internal" href="#consumer-what-i-want-to-use-jill-s-image-and-build-a-server-off-of-it">Consumer? What? I want to use Jill&#8217;s image and build a server off of it</a></li>
+<li><a class="reference internal" href="#consumers-are-referred-to-by-their-account-id">Consumers are referred to by their account id</a></li>
+<li><a class="reference internal" href="#sorry-window-s-users-need-not-apply">Sorry, Window&#8217;s Users Need Not Apply</a></li>
+<li><a class="reference internal" href="#i-m-ready-to-start-sharing-images">I&#8217;m ready to start sharing images!</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Welcome to Cloud Share Image&#8217;s documentation!</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/basic_concepts.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to Cloud Share Image’s documentation!"
+             >previous</a> |</li>
+        <li><a href="index.html">Cloud Share Image .5 Beta documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Darin Hensley.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+    </div>
+  </body>
+</html>
