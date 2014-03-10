@@ -7,14 +7,10 @@ Welcome to Cloud Share Image's documentation!
 =============================================
 .. warning:: To be used only with Rackspace open cloud accounts
 
-.. highlights:: 
-    testing
-
-
 Introduction
 ------------
 
-Do you own your own business where you build servers for customers? Perhaps, you created a very success full website and sold it. Now you need to transfer that webserver to the lucky person you sold it to. Or, maybe you are just a hobbyist that wants to share that awesome Ghost blogging webserver you spent hours building, hardening, and you want to share it with your IRC friend. If so, then image sharing is for you! 
+Do you own your own business where you build servers for customers? Perhaps, you created a very success full website and sold it. Now you need to transfer that webserver to the lucky person you sold it to. Or, maybe you are just a hobbyist that spent hours building and hardening a Node.js webserver. Now that you would like to share it with your IRC friend, you need a tool for the job. If so, then image sharing is for you! 
 
 Quick Start with Fundamentals  
 -----------------------------
@@ -22,4 +18,3 @@ Quick Start with Fundamentals
    :maxdepth: 2
 
    basic_concepts
-
