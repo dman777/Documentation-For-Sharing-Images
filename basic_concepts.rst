@@ -29,7 +29,7 @@ Let's say that I, Darin, want to share my image ``af1234c9-6d07-5f1f-b642-01d9df
 
 Sorry, Window's Users Need Not Apply
 ------------------------------------
-It's not us, it's them...or rather him. William Gates likes money. He likes it enough to where he said if you use his OS you can not share it. 
+It's not me, it's them...or rather him. William Gates likes money. He likes it enough to where he said if you use his OS you can not share it. 
 
 I'm ready to start sharing images! 
 ----------------------------------
