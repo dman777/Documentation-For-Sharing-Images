@@ -15,7 +15,7 @@ To retain a shared image forever, do these simple steps:
 
 3) Create a image off of the new server. This will be your newly saved image that is a copy of the shared image!
 
-It is recommended to spawn another server off of the new image that you just created to test it(again) and make sure it is good(as you did on step #2). It never hurts to be extra carefull and to make sure there were no issues. If everything went correctly, then you have a image that is a copy of the shared image! This image you wil keep even if the producer decides to remove the image he/she is sharing with you. 
+It is recommended to spawn another server off of the new image that you just created to test it(again) and make sure it is good(as you did on step #2). It never hurts to be extra carefull and to make sure there were no issues. If everything went correctly, then you have a image that is a copy of the shared image! This image you will keep even if the producer decides to remove the image he/she is sharing with you. 
 
 
 
