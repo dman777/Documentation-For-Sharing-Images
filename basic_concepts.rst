@@ -7,10 +7,6 @@ Sharing is not duplicating
 --------------------------
 Image sharing is exactly what it sounds....sharing a image between two Rackspace accounts. It is not copying a image and having two of of the same images(although this is possible and discussed later). When you share a image with another person, you give them a reference to your image. Think of it as you are givng the other person a roadmap to where their account can find your image to use.
 
-
-.. todo:: Add documentation on how to save copy of share image instance
-
-
 Think ahead
 -----------
 Images can not be shared across datacenters. For instance, if you have a image in the Dallas datacenter you can only share it with accounts in the Dallas datacenter. This makes good sense - you would not want to stream a 40GB image across datacenters. This would take a very long time to stream such a image. In addition, the probability of corruption is high due to typical internet congestion. The key point is this: Plan ahead on which datacenter you will choose to do your image sharing. As rule of thumb, it is best to pick the datacenter closest to you. However, the difference in speed across the datacenters from where you are are only milliseconds and insignificant to the human being.  
@@ -27,9 +23,9 @@ Consumers are referred to by their account id
 ----------------------------------------------
 Let's say that I, Darin, want to share my image ``af1234c9-6d07-5f1f-b642-01d9df26ed51`` with Jill. Jill will let me know her account number which is ``1234567``. I will add consumer ``1234567`` to my custom build Ubuntu image ``af1234c9-6d07-5f1f-b642-01d9df26ed51`` so it will be available to Jill's account.
 
-Sorry, Window's Users Need Not Apply
+Windows images are non transferable
 ------------------------------------
-It's not me, it's them...or rather him. William Gates likes money. He likes it enough to where he said if you use his OS you can not share it. 
+Windows images are under a licenese that prohibits them being transferable.
 
 I'm ready to start sharing images! 
 ----------------------------------

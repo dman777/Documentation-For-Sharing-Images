@@ -6,7 +6,7 @@
 Welcome to Cloud Share Image's documentation!
 =============================================
 .. todo::
-    2) Check for image endpoint if there are any issues
+    Check for image endpoint if there are any issues
 
 .. warning:: To be used only with Rackspace open cloud accounts
 
