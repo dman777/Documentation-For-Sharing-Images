@@ -3,7 +3,7 @@
 Retain a Shared Image Forever
 *****************************
 
-You are the consumer Jill and producer Darin is sharing image ``af1234c9-6d07-5f1f-b642-01d9df26ed51`` with you. Darin will only share the image with you for as long as he decides. When he no longer wants to share that image, he can simply remove you as a member and you no longer have access to that image. 
+You are the consumer, Jill, and producer Darin is sharing image ``af1234c9-6d07-5f1f-b642-01d9df26ed51`` with you. Darin will only share the image with you for as long as he decides. When he no longer wants to share that image, he can simply remove you as a member and you no longer have access to that image. 
 
 The simple answer
 -----------------
