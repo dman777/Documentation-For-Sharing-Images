@@ -27,9 +27,9 @@ Consumers are referred to by their account id
 ----------------------------------------------
 Let's say that I, Darin, want to share my image ``af1234c9-6d07-5f1f-b642-01d9df26ed51`` with Jill. Jill will let me know her account number which is ``1234567``. I will add consumer ``1234567`` to my custom build Ubuntu image ``af1234c9-6d07-5f1f-b642-01d9df26ed51`` so it will be available to Jill's account.
 
-Sorry, Window's Users Need Not Apply
+Windows images are non transferable
 ------------------------------------
-It's not me, it's them...or rather him. William Gates likes money. He likes it enough to where he said if you use his OS you can not share it. 
+Windows images are under a licenese that prohibits them being transferable.
 
 I'm ready to start sharing images! 
 ----------------------------------
