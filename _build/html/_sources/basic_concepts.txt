@@ -9,6 +9,8 @@ Image sharing is exactly what it sounds....sharing a image between two Rackspace
 
 Think ahead
 -----------
+.. note:: Since the writing of this article, image transferring(not importing) is now available. Please see `Transferring Images Between Regions of the Rackspace Open Cloud <http://www.rackspace.com/knowledge_center/article/transferring-images-between-regions-of-the-rackspace-open-cloud>`_ for documentation. It is not included in this documentation since it is out of this context. If you plan to share images on a repeated basis, you may still want to take in account the points below. 
+
 Images can not be shared across datacenters. For instance, if you have a image in the Dallas datacenter you can only share it with accounts in the Dallas datacenter. This makes good sense - you would not want to stream a 40GB image across datacenters. This would take a very long time to stream such a image. In addition, the probability of corruption is high due to typical internet congestion. The key point is this: Plan ahead on which datacenter you will choose to do your image sharing. As rule of thumb, it is best to pick the datacenter closest to you. However, the difference in speed across the datacenters from where you are are only milliseconds and insignificant to the human being.  
 
 Producer? What? I am the owner of the image
